@@ -1,14 +1,18 @@
 package sampleprograms;
 
+import java.util.Scanner;
+
 public class ReverseString {
 
 	public static void main(String[] args) {
 	
 		
-		String x = "Enginner";
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter the string");
+		String next = s.next();
 		String newString = "";
-		for (int i = x.length()-1; i>=0; i--) {
-			char ch = x.charAt(i);
+		for (int i = next.length()-1; i>=0; i--) {
+			char ch = next.charAt(i);
 			newString = newString+ch;
 			
 			
