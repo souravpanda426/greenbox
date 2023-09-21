@@ -8,7 +8,6 @@ public class OnlyNumbers {
 
 	}
 
-//hello
 	
 	
 	private static boolean isNumbers(String x) {
